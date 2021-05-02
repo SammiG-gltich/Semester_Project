@@ -22,6 +22,11 @@ public class SemesterProject extends Application{
     public static void main(String[] args) {
      launch(args);
     }
+    //display a tutorial document on start
+    
+    //display 4 random images on start.
+    
+    
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -32,7 +37,7 @@ public class SemesterProject extends Application{
 
     primaryStage.show();
     
-    //check to see if it commits and pushes properly
+    
     }
     
 }
