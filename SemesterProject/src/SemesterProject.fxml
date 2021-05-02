@@ -15,7 +15,6 @@
         </buttons>
       </ButtonBar>
       <ButtonBar layoutX="412.0" layoutY="120.0" prefHeight="40.0" prefWidth="200.0" />
-      <ButtonBar layoutX="386.0" layoutY="340.0" prefHeight="40.0" prefWidth="200.0" />
       <Text layoutX="14.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter an Expression:" wrappingWidth="278.4000396728516">
          <font>
             <Font size="24.0" />
@@ -26,6 +25,5 @@
       <TextField fx:id="dialogBox" layoutX="248.0" layoutY="21.0" prefHeight="26.0" prefWidth="354.0" />
     <Button fx:id="clearBtn" layoutX="628.0" layoutY="21.0" mnemonicParsing="false" onAction="#houseKeeping" prefHeight="26.0" prefWidth="190.0" text="Refresh" />
       <ButtonBar layoutX="22.0" layoutY="300.0" prefHeight="40.0" prefWidth="200.0" />
-      <ButtonBar layoutX="271.0" layoutY="292.0" prefHeight="40.0" prefWidth="200.0" />
    </children>
 </AnchorPane>
