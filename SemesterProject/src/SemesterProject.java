@@ -31,6 +31,8 @@ public class SemesterProject extends Application{
     primaryStage.setScene( new Scene(gp));
 
     primaryStage.show();
+    
+    //check
     }
     
 }
