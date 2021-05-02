@@ -32,7 +32,7 @@ public class SemesterProject extends Application{
 
     primaryStage.show();
     
-    //check 1
+    //check to see if it commits and pushes properly
     }
     
 }
