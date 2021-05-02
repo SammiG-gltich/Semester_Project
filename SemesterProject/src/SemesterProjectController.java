@@ -15,7 +15,7 @@ public class SemesterProjectController {
     private TextField txt1;
 
     @FXML
-    private TextField txt2;
+    private TextField dialogBox;
 
     @FXML
     private Button clearBtn;
@@ -27,22 +27,19 @@ public class SemesterProjectController {
 
     @FXML
     void houseKeeping(ActionEvent event) {
-
+        //method that clears the dialog box followed by the method that 
     }
 
     @FXML
     void makeSure(ActionEvent event) {
-
-    }
-
-    @FXML
-    void showMe(ActionEvent event) {
-
+        //method to check if  user enter expression is
     }
 
     @FXML
     void userIn(ActionEvent event) {
-
+           //method that takes what the user said and store it into temp variable if correct send it into dialog box...
+           //if not, store  the value and prompts a warning message 
+           
     }
 
 }
