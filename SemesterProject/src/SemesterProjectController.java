@@ -6,19 +6,19 @@ import javafx.scene.control.TextField;
 public class SemesterProjectController {
 
     @FXML
-    private Button solutionBtn;
+    private Button solutionBtn; 
 
     @FXML
-    private Button checkBtn;
+    private Button checkBtn; // verify button
 
     @FXML
-    private TextField txt1;
+    private TextField txt1; // this is where the user puts the expression
 
     @FXML
-    private TextField dialogBox;
+    private TextField dialogBox; // this is where the correct solution is displayed if it is equal to 24
 
     @FXML
-    private Button clearBtn;
+    private Button clearBtn;// refresh button
 
     @FXML
     void findSol(ActionEvent event) {
@@ -33,7 +33,7 @@ public class SemesterProjectController {
 
     @FXML
     void makeSure(ActionEvent event) {
-        //method to check if  user enter expression is
+        //method to check if  user enter expression is equal to 24
         
     }
 
