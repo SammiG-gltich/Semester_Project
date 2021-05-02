@@ -22,12 +22,13 @@ public class SemesterProjectController {
 
     @FXML
     void findSol(ActionEvent event) {
-
+        // create method that find a possble solution, if there is not a solution for the cards given report back that there is no solution.
     }
 
     @FXML
     void houseKeeping(ActionEvent event) {
-        //method that clears the dialog box followed by the method that 
+        //method that clears the dialog box followed by the method that give 4 random cards
+       
     }
 
     @FXML
