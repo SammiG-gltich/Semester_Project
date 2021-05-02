@@ -32,7 +32,7 @@ public class SemesterProject extends Application{
 
     primaryStage.show();
     
-    //check
+    //check 1
     }
     
 }
