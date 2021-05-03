@@ -1,0 +1,73 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Group;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+/**
+ *
+ * @author Sammi
+ */
+public class SemesterProject extends Application{
+
+    
+    public static void main(String[] args) {
+     launch(args);
+    }
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        
+    Parent gp= FXMLLoader.load(getClass().getResource("SemesterProject.fxml"));
+
+    
+           boolean[] Cardsdeck = new boolean[52];
+        // choose 4 random distinct cards from the deck
+
+        for(int i = 0; i < 4; i++) {
+            int cards = (int)(Math.random() * 52);
+            if (Cardsdeck[cards]== false) {
+                Cardsdeck[cards] = true;
+               
+                // Selects the 4 cards from the file directory
+        Image firtstCard = new ImageView("C:/Users/rosybarbaro/Downloads/png" +
+
+                cards + ".png").getImage();
+
+        Image secondCard = new ImageView("C:/Users/rosybarbaro/Downloads/png" +
+
+                cards + ".png").getImage();
+
+        Image thirdCard = new ImageView("C:/Users/rosybarbaro/Downloads/png" +
+
+                cards + ".png").getImage();
+
+        Image fourCard = new ImageView("C:/Users/rosybarbaro/Downloads/png" +
+
+                cards + ".png").getImage();
+        
+      
+
+            }
+        }
+   
+    
+
+    primaryStage.setScene( new Scene(gp));
+
+    
+
+    primaryStage.show();
+    }
+    
+}
