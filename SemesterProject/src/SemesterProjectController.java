@@ -28,13 +28,20 @@ public class SemesterProjectController {
     @FXML
     void houseKeeping(ActionEvent event) {
         //method that clears the dialog box followed by the method that give 4 random cards
+        
+        dialogBox.clear();
        
     }
 
     @FXML
     void makeSure(ActionEvent event) {
-        //method to check if  user enter expression is equal to 24
+        //statement without operand use to check if  user enter expression is equal to 24
         
+            if (Integer.parseInt(txt1.getText()) == 24){
+            dialogBox.setText(txt1.getText());
+        } else{
+                dialogBox.setText("Try Again");
+            }
     }
 
     @FXML
