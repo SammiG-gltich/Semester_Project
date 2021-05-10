@@ -13,6 +13,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
@@ -22,25 +24,20 @@ import javafx.stage.Stage;
  */
 public class SemesterProject extends Application{
 
-    Image firstCard; 
-    Image secondCard; 
-    Image thirdCard; 
-    Image fourthCard;
-    ImageView fCard;
-    ImageView sCard;
-    ImageView tCard;
-    ImageView foCard;
+
     
     public static void main(String[] args) {
      launch(args);
-    }
-    //display a tutorial document on start
+    }  
+
     
     @Override
     public void start(Stage primaryStage) throws Exception {
 
     Parent gp= FXMLLoader.load(getClass().getResource("SemesterProject.fxml"));
     
+        //display a tutorial document on start
+ 
     
             
     primaryStage.setScene( new Scene(gp));
